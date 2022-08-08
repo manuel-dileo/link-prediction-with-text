@@ -18,11 +18,15 @@ GNNs reach an AUROC score of 0.97 working naturally on graph-structured data and
 
 ## Data
 
-TBD
+For legal reasons, it is not possibile to publish our data. To patch this problem, we provide some dummy data in a specific folder. They can be used to understand the format of our data to run our models with yours. 
 
 ## Code
+We provide the code to run the experiments with the traditional (i.e. well know in the literature) supervised models, to construct the graph neural network (GNN) and graph autoencoder (GAE) architectures and use them on the link prediction task. They are available as jupyter notebooks to be easily executed and customized for other experiments.  
 
-We provide the code to compute the structural and textual features related to each user, to run the experiments with the traditional (i.e. well know in the literature) supervised models, to construct the graph neural network (GNN) and graph autoencoder (GAE) architectures and use them on the link prediction task. For data gathering you can refer to the [Steemit API](https://developers.steem.io/) documentation.
+Since the way we compute features for link prediction is related to how we stored data retrieved from Steemit, we do not provide notebooks to compute the features.  
+Instead, we decided to publish some utility functions to compute them. They are available in python scripts. In this way you can re-use them with your graphs or collection of documents.
+
+For data gathering you can refer to the [Steemit API](https://developers.steem.io/) documentation.
 
 ### Features for link prediction
 
