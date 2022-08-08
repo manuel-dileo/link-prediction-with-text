@@ -23,7 +23,7 @@ For legal reasons, it is not possibile to publish our data. To patch this proble
 ## Code
 We provide the code to run the experiments with the traditional (i.e. well know in the literature) supervised models, to construct the graph neural network (GNN) and graph autoencoder (GAE) architectures and use them on the link prediction task. They are available as jupyter notebooks to be easily executed and customized for other experiments.  
 
-Since the way we compute features for link prediction is related to how we stored data retrieved from Steemit, we do not provide notebooks to compute the features.  
+Since the way we compute features for link prediction is related to how we stored data retrieved from Steemit, we do not provide notebooks to compute the features.
 Instead, we decided to publish some utility functions to compute them. They are available in python scripts. In this way you can re-use them with your graphs or collection of documents.
 
 For data gathering you can refer to the [Steemit API](https://developers.steem.io/) documentation.
