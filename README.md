@@ -18,7 +18,7 @@ GNNs reach an AUROC score of 0.97 working naturally on graph-structured data and
 
 ## Data
 
-For legal reasons, it is not possibile to publish our data. To patch this problem, we provide some dummy data in a specific folder. They can be used to understand the format of our data to run our models with yours. 
+For privacy reasons, it is not possibile to publish our data. To patch this problem, we provide an anonymized version of our data. They represent the final dataset for training the ML models.
 
 ## Code
 We provide the code to run the experiments with the traditional (i.e. well know in the literature) supervised models, to construct the graph neural network (GNN) and graph autoencoder (GAE) architectures and use them on the link prediction task. They are available as jupyter notebooks to be easily executed and customized for other experiments.  
