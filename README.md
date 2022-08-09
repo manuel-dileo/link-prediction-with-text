@@ -32,4 +32,6 @@ For data gathering you can refer to the [Steemit API](https://developers.steem.i
 
 ### Link prediction with traditional supervised models
 
+``Steemit-LinkPrediction-TraditionalClassifiers.ipynb`` contains the code to reproduce the experiments with the traditional supervised models. We used the implementations available on scikit-learn. The folder ``dummy-data/traditional/`` contains the dummy data related to this part of the work.
+
 ### GNN and GAE models for link prediction
