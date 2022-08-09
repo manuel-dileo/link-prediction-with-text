@@ -13,7 +13,7 @@ import networkx as nx
 import json
 from collections import Counter
 
-def process_text(extracted):
+def process_text_from_blockchain(extracted):
     """
     Given a list of comment_op extracted from blockchain it returns 
         - the entire corpus of the snap,
@@ -85,7 +85,7 @@ def process_text(extracted):
     avg_tag = num_tag_per_doc / (num_post + num_comment)
     return entire_corpus, corpus_post, corpus_comment, corpus_tag, authors, tags, num_post, num_comment, avg_tag
 
-def get_author_lda(ldaLabel,entire_corpus,authors,K,aggregator=np.mean):
+def get_user_interest_vectors(ldaLabel,entire_corpus,authors,K,aggregator=np.mean):
     """
         Get user interest vector based on LDA distributions over its content.
         The entire collection of content is preprocessed through some Gensim filters
