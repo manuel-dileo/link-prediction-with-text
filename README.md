@@ -30,9 +30,9 @@ For data gathering you can refer to the [Steemit API](https://developers.steem.i
 
 ### Features for link prediction
 
-`textual.py`` contains two utility funcitons:
-- process\_text\_from\_blockchain manipulates the list of comment\_op extracted from the Steemit Blockchain to obtain the data structures to compute text-based statistics
-- get\_user\_interest\_vectors computes the user interest vectors based on LDA topic distributions
+``textual.py`` contains two utility funcitons:
+- ``process\_text\_from\_blockchain`` manipulates the list of comment\_op extracted from the Steemit Blockchain to obtain the data structures to compute text-based statistics
+- ``get\_user\_interest\_vectors`` computes the user interest vectors based on LDA topic distributions
 
 For structural features, you can refer to the implementations available on [Networkx](https://networkx.org/documentation/stable/reference/algorithms/link_prediction.html)
 
