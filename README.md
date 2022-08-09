@@ -35,3 +35,4 @@ For data gathering you can refer to the [Steemit API](https://developers.steem.i
 ``Steemit-LinkPrediction-TraditionalClassifiers.ipynb`` contains the code to reproduce the experiments with the traditional supervised models. We used the implementations available on scikit-learn. The folder ``dummy-data/traditional/`` contains the dummy data related to this part of the work.
 
 ### GNN and GAE models for link prediction
+``SteemitGNN.ipynb`` and ``SteemitGAE.ipynb`` contain respectively the code to reproduce the experiments with GNN and GAE architectures. We used PyTorch Geometric to develop these models. The folder ``dummy-data/gnn/`` contains the dummy data to fed both GNNs and GAEs.  
