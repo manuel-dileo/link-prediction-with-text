@@ -18,7 +18,7 @@ GNNs reach an AUROC score of 0.97 working naturally on graph-structured data and
 
 ## Data
 
-For privacy reasons, it is not possibile to publish our data. To patch this problem, we provide an anonymized version of our data. They represent the final dataset for training the ML models.
+For privacy reasons, it is not possibile to publish our data. To patch this problem, we provide an anonymized version of our data. They represent the final datasets for training the ML models.
 
 ## Code
 We provide the code to run the experiments with the traditional (i.e. well know in the literature) supervised models, to construct the graph neural network (GNN) and graph autoencoder (GAE) architectures and use them on the link prediction task. They are available as jupyter notebooks to be easily executed and customized for other experiments.  
@@ -38,7 +38,7 @@ For structural features, you can refer to the implementations available on [Netw
 
 ### Link prediction with traditional supervised models
 
-``Steemit-LinkPrediction-TraditionalClassifiers.ipynb`` contains the code to reproduce the experiments with the traditional supervised models. We used the implementations available on scikit-learn. The folder ``dummy-data/traditional/`` contains the dummy data related to this part of the work.
+``Steemit-LinkPrediction-TraditionalClassifiers.ipynb`` contains the code to reproduce the experiments with the traditional supervised models. We used the implementations available on scikit-learn. The folder ``data/traditional/`` contains the data related to this part of the work.
 
 ### GNN and GAE models for link prediction
 ``SteemitGNN.ipynb`` and ``SteemitGAE.ipynb`` contain respectively the code to reproduce the experiments with GNN and GAE architectures. We used PyTorch Geometric to develop these models. The folder ``dummy-data/gnn/`` contains the dummy data to fed both GNNs and GAEs. We included GAE and GNN architectures and the functions to train and test them in two py files, namely ``gnn.py`` and ``gae.py``, just for the sake of clarity.
