@@ -1,13 +1,8 @@
 # Link prediction with text
 This repository contains the source code used in three different works:
-- Dileo, M., Ba, C. T., Zignani, M., and Gaito, S. The impact of textual context on link
-prediction in online social networks, 2022. CompleNet, Exeter, United Kingdom, May 30 - June 1
-- Dileo, M., Ba, C. T., Zignani, M., and Gaito, S. Link prediction with text in online
-social networks: the role of textual content on high-resolution temporal data. Discovery Science,
-Montpellier, France, 10-12 October
-- Dileo, M., Ba, C. T., Zignani, M., and Gaito, S. Link prediction in blockchain on-
-line social networks with textual information, 2022. Complex Networks, Palermo, Italy, 8-10
-November
+- Dileo, M., Ba, C. T., Zignani, M., and Gaito, S. The impact of textual context on link prediction in online social networks, 2022. The 13th International Conference on Complex Networks, Exeter, United Kingdom, May 30 - June 1
+- Dileo, M., Ba, C. T., Zignani, M., and Gaito, S. Link prediction with text in online social networks: the role of textual content on high-resolution temporal data. The 25th International Conference on Discovery Science, Montpellier, France, 10-12 October
+- Dileo, M., Ba, C. T., Zignani, M., and Gaito, S. Link prediction in blockchain online social networks with textual information, 2022. The 11th International Conference on Complex Networks and their Applications, Palermo, Italy, 8-10 November
 
 ## Description
 We investigated the role of text on link formation, an important task as text could improve prediction and give insight on link formation process. To this end, we performed link prediction with text on a temporal attributed network. We relied on Steemit, a blockchain-based online social network, that allows the retrieval of high-resolution temporal information but lacks user attributes due to data control and privacy reasons. We have provided a methodology to use text information alongside traditional structural information and a temporal framework to train and test the models.
