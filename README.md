@@ -37,3 +37,23 @@ For structural features, you can refer to the implementations available on [Netw
 
 ### GNN and GAE models for link prediction
 ``SteemitGNN.ipynb`` and ``SteemitGAE.ipynb`` contain respectively the code to solve the link prediction task with GNN and GAE architectures. We used PyTorch Geometric to develop these models. The folder ``data/gnn/`` contains the data to fed both GNNs and GAEs. Specifically, the pickle files can be used to construct pyg datasets that represent both the structure of the graph and the text-based statistics as node attributes. We included GAE and GNN architectures and the functions to train and test them in two py files, namely ``gnn.py`` and ``gae.py``, just for the sake of clarity.
+
+## Cite this work
+```
+@InProceedings{DileoDS22,
+author="Dileo, Manuel
+and Ba, Cheick Tidiane
+and Zignani, Matteo
+and Gaito, Sabrina",
+editor="Pascal, Poncelet
+and Ienco, Dino",
+title="Link Prediction with Text in Online Social Networks: The Role of Textual Content on High-Resolution Temporal Data",
+booktitle="Discovery Science",
+year="2022",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="212--226",
+abstract="Machine learning-based solutions for link prediction in Online Social Networks (OSNs) have been the subject of many research efforts. While most of them are mainly focused on the global and local properties of the graph structure surrounding links, a few take also into account additional contextual information, such as the textual content produced by OSN accounts. In this paper we cope with the latter solutions to i) evaluate the role of textual data in enhancing performances in the link prediction task on OSN; and ii) identify strengths and weaknesses of different machine learning approaches when dealing with properties extracted from text. We conducted the evaluation of several tools, from well-established methods such as logistic regression or ensemble methods to more recent deep learning architectures for graph representation learning, on a novel dataset gathered from an emerging blockchain online social network. This dataset represents a valuable playground for link prediction evaluation since it offers high-resolution temporal data on link creation and textual data for each account. Our findings show that the combination of structural and textual features enhances the prediction performance of traditional models. Deep learning architectures outperform the traditional ones and they can also benefit from the addition of textual features. However, some textual attributes can also reduce the prediction power of some deep architectures. In general, deep learning models are promising solutions even for the link prediction task with textual content but may suffer the introduction of structured properties inferred from the text.",
+isbn="978-3-031-18840-4"
+}
+```
